@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Dependencies
 node_modules/
 */node_modules/
@@ -34,41 +33,4 @@ frontend/.vite_cache/
 coverage/
 *.local
 .DS_Store
-=======
-# Dependencies
-node_modules/
-*/node_modules/
-
-# Environment variables — NEVER commit these!
-.env
-*/.env
-backend/.env
-blockchain/.env
-frontend/.env
-
-# Build outputs
-dist/
-build/
-*/dist/
-
-# Blockchain
-artifacts/
-cache/
-blockchain/artifacts/
-blockchain/cache/
-typechain/
-typechain-types/
-deployments/
-
-# Vite cache
-.vite/
-*/.vite/
-frontend/.vite_cache/
-
-# Misc
-.cache/
-coverage/
-*.local
-.DS_Store
->>>>>>> db8414a8d3357203b327f46e746d734cbd7b14ce
 *.log
