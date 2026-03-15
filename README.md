@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DecentraVote 🗳️
 
 A **decentralized voting platform** built with:
@@ -128,4 +127,3 @@ See `backend/.env.example` for required environment variables.
 - 📊 Real-time results with charts
 - ⏱️ Countdown timer for election deadlines
 - 🔒 Role-based access control (Admin / Voter)
->>>>>>> db8414a8d3357203b327f46e746d734cbd7b14ce
