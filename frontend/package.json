@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predev": "node -e \"const fs=require('fs');const p='node_modules/.vite';if(fs.existsSync(p)){fs.rmSync(p,{recursive:true,force:true});console.log('🧹 Vite cache cleared');}\"",
     "dev": "vite --force",
     "build": "vite build",
     "preview": "vite preview"
