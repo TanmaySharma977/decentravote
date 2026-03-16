@@ -13,7 +13,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://decentravote-mu.vercel.app/',  
+    'https://decentravote-mu.vercel.app/',
+    /\.vercel\.app$/,
   ],
   credentials: true,
 }));
