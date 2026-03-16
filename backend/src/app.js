@@ -10,7 +10,13 @@ const electionRoutes = require('./routes/electionRoutes');
 const voteRoutes     = require('./routes/voteRoutes');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://decentravote-mu.vercel.app/',  
+  ],
+  credentials: true,
+}));
 app.use(express.json());
 
 app.use('/api/auth',      authRoutes);
