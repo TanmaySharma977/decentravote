@@ -263,6 +263,3 @@ function getResults(uint256 electionId) external view returns (uint256[] memory)
 
 ---
 
-## 📄 License
-
-MIT — feel free to use this project for learning and portfolio purposes.
